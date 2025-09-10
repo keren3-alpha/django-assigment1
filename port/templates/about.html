@@ -46,7 +46,6 @@
 
     nav a:hover {
         color: #007acc;
-        /* nice blue hover color */
         border-bottom: 2px solid #007acc;
     }
 
@@ -73,6 +72,11 @@
         font-size: 1.2rem;
         line-height: 1.6;
     }
+
+    .highlight {
+        color: #ffca28;
+        font-weight: bold;
+    }
 </style>
 
 <body>
@@ -83,18 +87,27 @@
             <li><a href="{% url 'contact' %}">Contact</a></li>
         </ul>
     </nav>
+
     <div class="main-content">
         <div class="container">
-            <h1>My Education Background</h1>
-            <p>I am currently a student at Refactory Academy, where I began my journey in July 2025 to pursue a
-                Certificate in Software Engineering with Python. This intensive, hands-on program has allowed me to
-                build a strong foundation in programming, problem solving, and collaborative software development.
-                Through this experience, I am not only gaining technical skills but also learning how to think
-                critically and work effectively in team-based environments. I am expected to complete the program in
-                July 2026, and I am excited to continue growing as a developer and contributing to meaningful,
-                real-world projects.</p>
+            <h1>About Me</h1>
+            <p>
+                Hello! I'm a <span class="highlight">Junior Software Engineer</span> with a passion for building clean,
+                efficient, and user-friendly applications.
+                I'm currently focusing on the <span class="highlight">Python track</span>, 
+                   As someone who’s always curious and learning, I
+                enjoy diving into new topics from backend development to data handling and continuously seek
+                ways to improve my skills. I’m detail-oriented, organized, and love solving problems through
+                thoughtful, well structured code
+            </p>
+            <p>
+                 I enjoy solving problems, learning new technologies, and collaborating with others to bring ideas to
+                life.
+ 
+            </p>
         </div>
     </div>
+
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
