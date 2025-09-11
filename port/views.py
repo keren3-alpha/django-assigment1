@@ -6,7 +6,7 @@ def index(request):
 
 
 def education(request):
-    return render(request, "educational.html")
+    return render(request, "education.html")
 
 def contact(request):
     if request.method == 'POST':
